@@ -42,7 +42,7 @@ app.use(express.static(__dirname + "/public"));
 app.use(express.urlencoded({extended: false}));
 
 app.listen(port, () => {
-	console.log("Node application listening on port "+port);
+	console.log("Node application listening on port "+ port);
 }); 
 
 
